@@ -1,0 +1,15 @@
+{
+  "name": "filter-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./style.css -o  ./css/main.css ",
+    "watch": "tailwind -i ./style.css -o  ./css/main.css --watch"
+  },
+  "author": "hamid",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
