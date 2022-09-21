@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css " />
+    <title>filterable LIst</title>
+  </head>
+  <body>
+    <header class="w-full flex flex-row justify-between p-2">
+      <h1 class="text-3xl text-blue-600">Todo</h1>
+      <div>
+        <input
+          type="text"
+          id="filterInput"
+          class="mx-auto border border-solid border-blue-600 py-2 px-4 rounded-full"
+          placeholder="Search items..."
+        />
+      </div>
+    </header>
+    <div class="container mx-auto">
+      <div class="mx-10 my-12 p-2">
+        <form
+          id="add-form"
+          class="my-2 flex flex-row p-2 justify-center  "
+        >
+          <input
+            type="text"
+            id="create-text"
+            placeholder="list item"
+            class="w-1/2 py-2 px-4 rounded-2xl border border-blue-600 border-solid"
+          />
+          <button
+            class="bg-blue-500 px-4 py-2 rounded-full text-white ml-3"
+            value="submit"
+          >
+            Submit
+          </button>
+        </form>
+        <ul class="space-y-4" id="name"></ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
